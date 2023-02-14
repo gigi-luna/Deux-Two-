@@ -146,7 +146,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   ),
                   child: Center(
                     child: Text(
-                      'Sign in',
+                      'Create Account',
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,

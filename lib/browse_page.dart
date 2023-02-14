@@ -37,37 +37,39 @@ class _BrowsePageState extends State<BrowsePage> {
                   GestureDetector(
                     onTap: () {
                       Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context){
-                                return LoginPage();
-                              },
-                            ),
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return LoginPage();
+                          },
+                        ),
                       );
                     },
                     child: Container(
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10), color: Colors.white, border: Border.all(color: Colors.black, width: 5)
-                      ),
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.white,
+                          border: Border.all(color: Colors.black, width: 5)),
                       child: const Padding(
-                          padding: EdgeInsets.all(8.0),
-                          child: Text(
-                              "Story 1",
-                              style: TextStyle(color: Colors.black, fontSize: 25),
-                          ),
+                        padding: EdgeInsets.all(8.0),
+                        child: Text(
+                          "Story 1",
+                          style: TextStyle(color: Colors.black, fontSize: 25),
+                        ),
                       ),
                     ),
                   ),
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),color: Colors.white, border: Border.all(color: Colors.black, width: 5)
-                    ),
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.white,
+                        border: Border.all(color: Colors.black, width: 5)),
                     child: const Padding(
-                        padding: EdgeInsets.all(8.0),
-                        child: Text(
-                          "Story 2",
-                          style: TextStyle(color: Colors.black, fontSize: 25),
-                        ),
+                      padding: EdgeInsets.all(8.0),
+                      child: Text(
+                        "Story 2",
+                        style: TextStyle(color: Colors.black, fontSize: 25),
+                      ),
                     ),
                   ),
                 ],
