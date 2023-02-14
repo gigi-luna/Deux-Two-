@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, unused_element, no_logic_in_create_state, prefer_const_constructors
 
 import "package:flutter/material.dart";
-import "package:two_deux/login_page.dart";
+import "package:two_deux/book_one.dart";
 
 class BrowsePage extends StatefulWidget {
   const BrowsePage({Key? key}) : super(key: key);
@@ -40,7 +40,7 @@ class _BrowsePageState extends State<BrowsePage> {
                         context,
                         MaterialPageRoute(
                           builder: (context) {
-                            return LoginPage();
+                            return BookOne();
                           },
                         ),
                       );
