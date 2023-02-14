@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "472448218011",
+    "firebase_url": "https://two-deux-default-rtdb.firebaseio.com",
+    "project_id": "two-deux",
+    "storage_bucket": "two-deux.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472448218011:android:1b6cd8c471871aa26d673e",
+        "android_client_info": {
+          "package_name": "com.example.two_deux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472448218011-f6am5mfj6iprur6tp23ep596n5asn6r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvEDyKxixv9g0plyC3tDwNJuFM1ENkHmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472448218011-f6am5mfj6iprur6tp23ep596n5asn6r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
