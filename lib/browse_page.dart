@@ -1,7 +1,10 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, unused_element, no_logic_in_create_state, prefer_const_constructors
 
 import "package:flutter/material.dart";
-import "package:two_deux/book_one.dart";
+//import "package:two_deux/book_one.dart";
+import "package:two_deux/tabs/first_tab.dart";
+import "package:two_deux/tabs/second_tab.dart";
+import "package:two_deux/tabs/third_tab.dart";
 
 class BrowsePage extends StatefulWidget {
   const BrowsePage({Key? key}) : super(key: key);
@@ -13,69 +16,45 @@ class BrowsePage extends StatefulWidget {
 class _BrowsePageState extends State<BrowsePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.grey[400],
-      body: SafeArea(
-        child: Center(
-          child: Column(
-            children: [
-              //browse
-              SizedBox(height: 50),
-
-              Text(
-                "Browse Stories",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 26,
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text('Welcome/Bounjor'),
+        ),
+        body: Column(
+          children: [
+            TabBar(
+              tabs: [
+                Tab(
+                  icon: Icon(
+                    Icons.home,
+                    color: Colors.green,
+                  ),
                 ),
-              ),
-              Padding(padding: const EdgeInsets.symmetric(vertical: 15)),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) {
-                            return BookOne();
-                          },
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          color: Colors.white,
-                          border: Border.all(color: Colors.black, width: 5)),
-                      child: const Padding(
-                        padding: EdgeInsets.all(8.0),
-                        child: Text(
-                          "Story 1",
-                          style: TextStyle(color: Colors.black, fontSize: 25),
-                        ),
-                      ),
-                    ),
+                Tab(
+                  icon: Icon(
+                    Icons.toys,
+                    color: Colors.green,
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: Colors.white,
-                        border: Border.all(color: Colors.black, width: 5)),
-                    child: const Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Story 2",
-                        style: TextStyle(color: Colors.black, fontSize: 25),
-                      ),
-                    ),
+                ),
+                Tab(
+                  icon: Icon(
+                    Icons.person,
+                    color: Colors.green,
                   ),
-                ],
-              )
-            ],
-          ),
+                ),
+              ],
+            ),
+            Expanded(
+              child: TabBarView(children: [
+                //browse page
+                FirstTab(),
+                SecondTab(),
+                ThirdTab()
+              ]),
+            )
+          ],
         ),
       ),
     );
