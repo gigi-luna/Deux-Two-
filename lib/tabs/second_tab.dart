@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../StoryCard.dart';
 import '../book_one.dart';
 
 class SecondTab extends StatelessWidget {
@@ -28,31 +29,7 @@ class SecondTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) {
-                            return BookOne();
-                          },
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          color: Colors.white,
-                          border: Border.all(color: Colors.black, width: 5)),
-                      child: const Padding(
-                        padding: EdgeInsets.all(8.0),
-                        child: Text(
-                          "Story 1",
-                          style: TextStyle(color: Colors.black, fontSize: 25),
-                        ),
-                      ),
-                    ),
-                  ),
+                  const StoryCard(title: "The Black Cat", destination: BookOne(), image: 'assets/images/blackcat.jpeg'),
                   Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
