@@ -13,12 +13,11 @@ class BookOne extends StatefulWidget {
 }
 
 class _BookOneState extends State<BookOne> {
+  Color? word1 = Colors.grey[400];
+  Color? word2 = Colors.grey[400];
+  Color? word3 = Colors.grey[400];
   @override
-
   Widget build(BuildContext context) {
-    Color? word1 = Colors.grey[400];
-    Color? word2 = Colors.grey[400];
-    Color? word3 = Colors.grey[400];
     List<Color?> allWords= [word1,word2,word3];
     return Scaffold(
       appBar: AppBar(
