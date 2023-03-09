@@ -43,15 +43,33 @@ class _BookOneState extends State<BookOne> {
                       recognizer: TapGestureRecognizer()..onTap = () {
                         setState(() {
                           word1 = Colors.yellow;
+                          word2 = Colors.grey[400];
+                          word3 = Colors.grey[400];
                         });
                       }
                     ),
                     TextSpan(text: " "),
                     TextSpan(text: "Black",
-                      style: TextStyle(backgroundColor: word2)),
+                      style: TextStyle(backgroundColor: word2),
+                      recognizer: TapGestureRecognizer()..onTap = () {
+                        setState(() {
+                          word1 = Colors.grey[400];
+                          word2 = Colors.yellow;
+                          word3 = Colors.grey[400];
+                      });
+                    }
+                    ),
                     TextSpan(text: " "),
                     TextSpan(text: "Cat",
-                      style: TextStyle(backgroundColor: word3))
+                      style: TextStyle(backgroundColor: word3),
+                        recognizer: TapGestureRecognizer()..onTap = () {
+                          setState(() {
+                            word1 = Colors.grey[400];
+                            word2 = Colors.grey[400];
+                            word3 = Colors.yellow;
+                          });
+                        }
+                    )
                   ]
 
 
@@ -61,12 +79,50 @@ class _BookOneState extends State<BookOne> {
 
               SizedBox(height: 5),
 
-              Text(
-                "Le Chat Noir",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 24,
+              RichText(
+                text: TextSpan(
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 26,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(text: "Le",
+                          style: TextStyle(backgroundColor: word1),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.yellow;
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "Chat",
+                          style: TextStyle(backgroundColor: word3),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.yellow;
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "Noir",
+                          style: TextStyle(backgroundColor: word2),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.yellow;
+                              word3 = Colors.grey[400];
+                            });
+                          }
+                      )
+                    ]
+
+
                 ),
+
               ),
 
               SizedBox(height: 35),
