@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../StoryCard.dart';
 import '../book_one.dart';
+import '../book_two.dart';
 
 class FirstTab extends StatelessWidget {
   const FirstTab({Key? key}) : super(key: key);
@@ -28,21 +29,9 @@ class FirstTab extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  const StoryCard(title: "The Black Cat", destination: BookOne(), image: 'assets/images/blackcat.jpeg'),
-                  Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: Colors.white,
-                        border: Border.all(color: Colors.black, width: 5)),
-                    child: const Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        "Story 2",
-                        style: TextStyle(color: Colors.black, fontSize: 25),
-                      ),
-                    ),
-                  ),
+                children: const [
+                  StoryCard(title: "The Black Cat", destination: BookOne(), image: 'assets/images/blackcat.jpeg'),
+                  StoryCard(title: "Sophie and the Rabbit", destination: BookTwo(), image: 'assets/images/blackcat.jpeg')
                 ],
               )
             ],
