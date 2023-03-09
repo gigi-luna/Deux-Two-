@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:two_deux/book_four.dart';
 
 import '../StoryCard.dart';
 import '../book_one.dart';
@@ -42,7 +43,11 @@ class FirstTab extends StatelessWidget {
                   StoryCard(
                       title: "Lola Makes a Friend",
                       destination: BookThree(),
-                      image: 'assets/images/bbee.jpeg')
+                      image: 'assets/images/bbee.jpeg'),
+                  StoryCard(
+                      title: "Lola Makes a Friend",
+                      destination: BookFour(),
+                      image: 'assets/images/kitten.jpeg')
                 ],
               )
             ],
