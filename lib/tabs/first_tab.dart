@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../StoryCard.dart';
 import '../book_one.dart';
+import '../book_three.dart';
 import '../book_two.dart';
 
 class FirstTab extends StatelessWidget {
@@ -30,8 +31,18 @@ class FirstTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: const [
-                  StoryCard(title: "The Black Cat", destination: BookOne(), image: 'assets/images/blackcat.jpeg'),
-                  StoryCard(title: "Sophie and the Rabbit", destination: BookTwo(), image: 'assets/images/blackcat.jpeg')
+                  StoryCard(
+                      title: "The Black Cat",
+                      destination: BookOne(),
+                      image: 'assets/images/blackcat.jpeg'),
+                  StoryCard(
+                      title: "Sophie and the Rabbit",
+                      destination: BookTwo(),
+                      image: 'assets/images/blackcat.jpeg'),
+                  StoryCard(
+                      title: "Lola Makes a Friend",
+                      destination: BookThree(),
+                      image: 'assets/images/bbee.jpeg')
                 ],
               )
             ],
@@ -41,5 +52,3 @@ class FirstTab extends StatelessWidget {
     );
   }
 }
-
-
