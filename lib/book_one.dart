@@ -16,6 +16,13 @@ class _BookOneState extends State<BookOne> {
   Color? word1 = Colors.grey[400];
   Color? word2 = Colors.grey[400];
   Color? word3 = Colors.grey[400];
+  Color? word4 = Colors.grey[400];
+  Color? word5 = Colors.grey[400];
+  Color? word6 = Colors.grey[400];
+  Color? word7 = Colors.grey[400];
+  Color? word8 = Colors.grey[400];
+  Color? word9 = Colors.grey[400];
+  Color? word10 = Colors.grey[400];
   @override
   Widget build(BuildContext context) {
     List<Color?> allWords= [word1,word2,word3];
@@ -45,6 +52,13 @@ class _BookOneState extends State<BookOne> {
                           word1 = Colors.yellow;
                           word2 = Colors.grey[400];
                           word3 = Colors.grey[400];
+                          word4 = Colors.grey[400];
+                          word5 = Colors.grey[400];
+                          word6 = Colors.grey[400];
+                          word7 = Colors.grey[400];
+                          word8 = Colors.grey[400];
+                          word9 = Colors.grey[400];
+                          word10 = Colors.grey[400];
                         });
                       }
                     ),
@@ -56,6 +70,13 @@ class _BookOneState extends State<BookOne> {
                           word1 = Colors.grey[400];
                           word2 = Colors.yellow;
                           word3 = Colors.grey[400];
+                          word4 = Colors.grey[400];
+                          word5 = Colors.grey[400];
+                          word6 = Colors.grey[400];
+                          word7 = Colors.grey[400];
+                          word8 = Colors.grey[400];
+                          word9 = Colors.grey[400];
+                          word10 = Colors.grey[400];
                       });
                     }
                     ),
@@ -67,6 +88,13 @@ class _BookOneState extends State<BookOne> {
                             word1 = Colors.grey[400];
                             word2 = Colors.grey[400];
                             word3 = Colors.yellow;
+                            word4 = Colors.grey[400];
+                            word5 = Colors.grey[400];
+                            word6 = Colors.grey[400];
+                            word7 = Colors.grey[400];
+                            word8 = Colors.grey[400];
+                            word9 = Colors.grey[400];
+                            word10 = Colors.grey[400];
                           });
                         }
                     )
@@ -93,6 +121,13 @@ class _BookOneState extends State<BookOne> {
                               word1 = Colors.yellow;
                               word2 = Colors.grey[400];
                               word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
                             });
                           }
                       ),
@@ -104,6 +139,13 @@ class _BookOneState extends State<BookOne> {
                               word1 = Colors.grey[400];
                               word2 = Colors.grey[400];
                               word3 = Colors.yellow;
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
                             });
                           }
                       ),
@@ -115,6 +157,13 @@ class _BookOneState extends State<BookOne> {
                               word1 = Colors.grey[400];
                               word2 = Colors.yellow;
                               word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
                             });
                           }
                       )
@@ -127,21 +176,177 @@ class _BookOneState extends State<BookOne> {
 
               SizedBox(height: 35),
 
-              //book begins
-              Text(
-                "The cat is black",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
+              RichText(
+                text: TextSpan(
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(text: "The",
+                          style: TextStyle(backgroundColor: word4),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.yellow;
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "cat",
+                          style: TextStyle(backgroundColor: word5),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.yellow;
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "is",
+                          style: TextStyle(backgroundColor: word6),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.yellow;
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "black",
+                          style: TextStyle(backgroundColor: word7),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.yellow;
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text:"."),
+                    ]
+
+
                 ),
+
               ),
 
-              Text(
-                "Le chat noir",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
+
+              RichText(
+                text: TextSpan(
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(text: "Le",
+                          style: TextStyle(backgroundColor: word4),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.yellow;
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "chat",
+                          style: TextStyle(backgroundColor: word5),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.yellow;
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "est",
+                          style: TextStyle(backgroundColor: word6),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.yellow;
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "noir",
+                          style: TextStyle(backgroundColor: word7),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.yellow;
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text:"."),
+                    ]
+
+
                 ),
+
               ),
 
               Image.asset(
@@ -152,20 +357,140 @@ class _BookOneState extends State<BookOne> {
 
               SizedBox(height: 20),
 
-              Text(
-                "The cat plays",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
+              RichText(
+                text: TextSpan(
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(text: "The",
+                          style: TextStyle(backgroundColor: word8),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.yellow;
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "cat",
+                          style: TextStyle(backgroundColor: word9),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.yellow;
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "plays",
+                          style: TextStyle(backgroundColor: word10),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.yellow;
+                            });
+                          }
+                      ),
+                      TextSpan(text:"."),
+                    ]
+
+
                 ),
+
               ),
 
-              Text(
-                "Le chat joue",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 20,
+              RichText(
+                text: TextSpan(
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(text: "Le",
+                          style: TextStyle(backgroundColor: word8),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.yellow;
+                              word9 = Colors.grey[400];
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "chat",
+                          style: TextStyle(backgroundColor: word9),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.yellow;
+                              word10 = Colors.grey[400];
+                            });
+                          }
+                      ),
+                      TextSpan(text: " "),
+                      TextSpan(text: "joue",
+                          style: TextStyle(backgroundColor: word10),
+                          recognizer: TapGestureRecognizer()..onTap = () {
+                            setState(() {
+                              word1 = Colors.grey[400];
+                              word2 = Colors.grey[400];
+                              word3 = Colors.grey[400];
+                              word4 = Colors.grey[400];
+                              word5 = Colors.grey[400];
+                              word6 = Colors.grey[400];
+                              word7 = Colors.grey[400];
+                              word8 = Colors.grey[400];
+                              word9 = Colors.grey[400];
+                              word10 = Colors.yellow;
+                            });
+                          }
+                      ),
+                      TextSpan(text:"."),
+                    ]
+
+
                 ),
+
               ),
 
               Image.asset(
