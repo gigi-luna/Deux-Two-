@@ -39,13 +39,13 @@ class FirstTab extends StatelessWidget {
                   StoryCard(
                       title: "Sophie and the Rabbit",
                       destination: BookTwo(),
-                      image: 'assets/images/blackcat.jpeg'),
+                      image: 'assets/images/girlField.jpeg'),
                   StoryCard(
                       title: "Lola Makes a Friend",
                       destination: BookThree(),
                       image: 'assets/images/bbee.jpeg'),
                   StoryCard(
-                      title: "Lola Makes a Friend",
+                      title: "Minou and the Bee",
                       destination: BookFour(),
                       image: 'assets/images/kitten.jpeg')
                 ],

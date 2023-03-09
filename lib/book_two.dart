@@ -141,7 +141,7 @@ class _BookTwoState extends State<BookTwo> {
               ),
 
               Image.asset(
-                'assets/images/blackcat.jpeg',
+                'assets/images/girlField.jpeg',
                 height: 180,
                 width: 180,
               ),
@@ -165,7 +165,7 @@ class _BookTwoState extends State<BookTwo> {
               ),
 
               Image.asset(
-                'assets/images/playcat.jpeg',
+                'assets/images/flowerPick.jpeg',
                 height: 180,
                 width: 180,
               ),
