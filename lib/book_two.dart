@@ -22,7 +22,7 @@ class _BookTwoState extends State<BookTwo> {
         title: const Text(''),
       ),
       backgroundColor: Colors.grey[400],
-      body: SafeArea(
+      body: SingleChildScrollView(
         child: Center(
           child: Column(
             children: [
