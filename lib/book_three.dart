@@ -86,7 +86,7 @@ class _BookThree extends State<BookThree> {
             ),
 
             Image.asset(
-              'images/playcat.jpeg',
+              'images/rabbitbee.jpeg',
               height: 100,
               width: 100,
             ),
@@ -105,6 +105,12 @@ class _BookThree extends State<BookThree> {
                 fontWeight: FontWeight.bold,
                 fontSize: 15,
               ),
+            ),
+
+            Image.asset(
+              'images/rnb.jpeg',
+              height: 100,
+              width: 100,
             ),
           ],
         ),
