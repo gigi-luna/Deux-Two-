@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../StoryCard.dart';
-import '../book_one.dart';
+import '../ActivityCard_one.dart';
 
 class SecondTab extends StatelessWidget {
   const SecondTab({Key? key}) : super(key: key);
@@ -29,7 +29,10 @@ class SecondTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const StoryCard(title: "The Black Cat", destination: BookOne(), image: 'assets/images/blackcat.jpeg'),
+                  const StoryCard(
+                      title: "The Black Cat",
+                      destination: ActivityOne(),
+                      image: 'assets/images/blackcat.jpeg'),
                   Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),

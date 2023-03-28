@@ -1,0 +1,18 @@
+2023/03/09-15:36:18.989 4ca4 Creating DB C:\Users\pmago\AppData\Local\Temp\flutter_tools.b8805b69\flutter_tools_chrome_device.34160d0c\Default\IndexedDB\https_support.okta.com_0.indexeddb.leveldb since it was missing.
+2023/03/09-15:36:18.994 4ca4 Reusing MANIFEST C:\Users\pmago\AppData\Local\Temp\flutter_tools.b8805b69\flutter_tools_chrome_device.34160d0c\Default\IndexedDB\https_support.okta.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/09-15:36:20.495 3690 Level-0 table #5: started
+2023/03/09-15:36:20.499 3690 Level-0 table #5: 360548 bytes OK
+2023/03/09-15:36:20.501 3690 Delete type=0 #3
+2023/03/09-15:36:20.502 3690 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/09-15:36:21.851 29c8 Level-0 table #7: started
+2023/03/09-15:36:21.876 29c8 Level-0 table #7: 1457327 bytes OK
+2023/03/09-15:36:21.878 29c8 Delete type=0 #4
+2023/03/09-15:36:21.881 4ca4 Compacting 1@1 + 1@2 files
+2023/03/09-15:36:21.910 4ca4 Generated table #8@1: 1824 keys, 1000934 bytes
+2023/03/09-15:36:21.910 4ca4 Compacted 1@1 + 1@2 files => 1000934 bytes
+2023/03/09-15:36:21.911 4ca4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/09-15:36:21.912 4ca4 Delete type=2 #5
+2023/03/09-15:36:21.912 4ca4 Delete type=2 #7
+2023/03/09-15:36:21.920 4ca4 Level-0 table #10: started
+2023/03/09-15:36:21.950 4ca4 Level-0 table #10: 1316715 bytes OK
+2023/03/09-15:36:21.952 4ca4 Delete type=0 #6
