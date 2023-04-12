@@ -87,7 +87,7 @@ class _BookThree extends State<BookThree> {
                 ),
 
                 Image.asset(
-                  'images/rabbitBee.jpeg',
+                  'images/rabbit.jpeg',
                   height: 100,
                   width: 100,
                 ),
