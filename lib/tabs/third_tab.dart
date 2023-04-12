@@ -6,9 +6,17 @@ class ThirdTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[400],
       body: Container(
-        child: ListView(
-          children: const [Text("Edit Profile")],
+        child: Column(
+            children: [
+                  const SizedBox(height:20),
+                  Row(
+                    mainAxisAlignment:MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment:CrossAxisAlignment.start,
+                    children: const [
+                      Text("Edit Profile")],
+        )],
         ),
       ),
     );
