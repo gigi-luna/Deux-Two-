@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:two_deux/book_five.dart';
 import 'package:two_deux/book_four.dart';
 
 import '../StoryCard.dart';
 import '../book_one.dart';
-import '../book_three.dart';
 import '../book_two.dart';
+import '../book_three.dart';
+import '../book_four.dart';
+import '../book_five.dart';
 
 class FirstTab extends StatelessWidget {
   const FirstTab({Key? key}) : super(key: key);
@@ -28,6 +31,7 @@ class FirstTab extends StatelessWidget {
                 ),
               ),
               const Padding(padding: EdgeInsets.symmetric(vertical: 15)),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -43,13 +47,22 @@ class FirstTab extends StatelessWidget {
                   StoryCard(
                       title: "Lola Makes a Friend",
                       destination: BookThree(),
-                      image: 'assets/images/bbee.jpeg'),
-                  StoryCard(
-                      title: "Minou and the Bee",
-                      destination: BookFour(),
-                      image: 'assets/images/kitten.jpeg')
+                      image: 'assets/images/bbee.jpeg')
                 ],
-              )
+              ),
+              Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: const [
+                    StoryCard(
+                        title: "Minou and the Bee",
+                        destination: BookFour(),
+                        image: 'assets/images/kitten.jpeg'),
+                    StoryCard(
+                        title: "Lilly Learns about Feelings",
+                        destination: BookFive(),
+                        image: 'assets/images/owl.jpeg')
+                  ])
             ],
           ),
         ),
