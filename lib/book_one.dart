@@ -258,6 +258,8 @@ class _BookOneState extends State<BookOne> {
                     ]),
               ),
 
+              SizedBox(height: 10),
+
               RichText(
                 text: TextSpan(
                     style: TextStyle(
@@ -419,6 +421,8 @@ class _BookOneState extends State<BookOne> {
                     ]),
               ),
 
+              SizedBox(height: 10),
+
               RichText(
                 text: TextSpan(
                     style: TextStyle(
@@ -491,10 +495,6 @@ class _BookOneState extends State<BookOne> {
                 height: 180,
                 width: 180,
               ),
-
-              Icon(
-                Icons.arrow_forward_ios,
-              )
             ],
           ),
         ),

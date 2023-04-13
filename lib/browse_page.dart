@@ -33,7 +33,7 @@ class _BrowsePageState extends State<BrowsePage> {
                 ),
                 Tab(
                   icon: Icon(
-                    Icons.toys,
+                    Icons.gamepad,
                     color: Colors.green,
                   ),
                 ),
