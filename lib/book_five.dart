@@ -54,6 +54,8 @@ class _BookFive extends State<BookFive> {
                   ),
                 ),
 
+                SizedBox(height: 10),
+
                 Text(
                   "Lily etait une petite fille heureuse qui aimait jouer avec sesjouets et chanter. Parfois\nelle se sentait trister, en colere ou effrayee, et ne savait\npas comment gecer ces sentiments.",
                   style: TextStyle(
@@ -61,6 +63,8 @@ class _BookFive extends State<BookFive> {
                     fontSize: 15,
                   ),
                 ),
+
+                SizedBox(height: 10),
 
                 Image.asset(
                   'images/lilyfeel.jpeg',
@@ -78,6 +82,8 @@ class _BookFive extends State<BookFive> {
                   ),
                 ),
 
+                SizedBox(height: 10),
+
                 Text(
                   "Un jour, alors qu'elle se promenait dans le parc, elle vit un vieux hibou sage assis sur\nune branche d'arbre. Lily s'est approchée du hibou et lui a demandé\nMonsieur le hibou, comment puis-je gérer\nmes sentiments lorsque je suis triste ou en colère ?",
                   style: TextStyle(
@@ -85,6 +91,8 @@ class _BookFive extends State<BookFive> {
                     fontSize: 15,
                   ),
                 ),
+
+                SizedBox(height: 10),
 
                 Image.asset(
                   'images/owl.jpeg',
@@ -100,6 +108,8 @@ class _BookFive extends State<BookFive> {
                   ),
                 ),
 
+                SizedBox(height: 10),
+
                 Text(
                   "La chouette a répondu : 'Eh bien, Lily, tu peux commencer par reconnaître tes sentiments. \nC'est normal d'être triste ou en colère. L'important, c'est de comprendre \npourquoi tu te sens comme ça et comment tu peux te sentir mieux.'",
                   style: TextStyle(
@@ -107,6 +117,8 @@ class _BookFive extends State<BookFive> {
                     fontSize: 15,
                   ),
                 ),
+
+                SizedBox(height: 10),
 
                 Image.asset(
                   'images/girlthinking.jpeg',
@@ -121,6 +133,8 @@ class _BookFive extends State<BookFive> {
                     fontSize: 15,
                   ),
                 ),
+
+                SizedBox(height: 10),
 
                 Text(
                   "Lily réfléchit aux paroles de la chouette et se rendit compte que lorsqu'elle était triste,\n c'était parce que ses amis ou sa famille lui manquaient. Lorsqu'elle se sentait \nen colère, c'était parce que quelqu'un lui avait pris son jouet sans lui demander son avis.",

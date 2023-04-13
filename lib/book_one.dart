@@ -258,6 +258,8 @@ class _BookOneState extends State<BookOne> {
                     ]),
               ),
 
+              SizedBox(height: 10),
+
               RichText(
                 text: TextSpan(
                     style: TextStyle(
@@ -418,6 +420,8 @@ class _BookOneState extends State<BookOne> {
                       TextSpan(text: "."),
                     ]),
               ),
+
+              SizedBox(height: 10),
 
               RichText(
                 text: TextSpan(

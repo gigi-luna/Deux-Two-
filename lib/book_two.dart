@@ -603,6 +603,8 @@ class _BookTwoState extends State<BookTwo> {
                     ]),
                   ),
 
+              SizedBox(height: 5),
+
               RichText(
                 text: TextSpan(
                     style: TextStyle(
@@ -1561,6 +1563,8 @@ class _BookTwoState extends State<BookTwo> {
                     ]),
               ),
 
+              SizedBox(height: 5),
+
               RichText(
                 text: TextSpan(
                     style: TextStyle(
@@ -2198,6 +2202,8 @@ class _BookTwoState extends State<BookTwo> {
                             }),
                     ]),
               ),
+
+              SizedBox(height: 10),
 
               Image.asset(
                 'images/flowerPick.jpeg',

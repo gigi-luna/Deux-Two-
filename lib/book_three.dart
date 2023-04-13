@@ -54,6 +54,8 @@ class _BookThree extends State<BookThree> {
                   ),
                 ),
 
+                SizedBox(height: 10),
+
                 Text(
                   "Lola était une abeille qui aimait voler dans les champs de fleurs pour récolter \n du nectar. Elle était très travailleuse et aimait aider sa reine.",
                   style: TextStyle(
@@ -78,6 +80,8 @@ class _BookThree extends State<BookThree> {
                   ),
                 ),
 
+                SizedBox(height: 10),
+
                 Text(
                   "Un jour, Lola rencontra une petite coccinelle appelée Léa. Léa était triste\nparce qu'elle s'était perdue dans un grand champ de fleurs et n'arrivait \npas à retrouver sa maison.",
                   style: TextStyle(
@@ -99,6 +103,8 @@ class _BookThree extends State<BookThree> {
                     fontSize: 15,
                   ),
                 ),
+
+                SizedBox(height: 10),
 
                 Text(
                   "Lola décida de l'aider à retrouver son chemin. Elle vola autour de Léa en faisant \ndes cercles pour l'aider à se concentrer et à trouver sa direction. Finalement, Léa retrouve \nsa maison avec l'aide de Lola.",
